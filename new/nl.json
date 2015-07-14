@@ -1,0 +1,84 @@
+{
+  "title": "Zoek naar een huurauto",
+  "country": "Land",
+  "city": "Plaats",
+  "location": "Locatie",
+  "pickUp": "Ophalen",
+  "dropOff": "Inleveren",
+  "emptySelect": "Kies hier",
+  "pickUpDate": "Ophaaldatum",
+  "dropOffDate": "Inleverdatum",
+  "time": "Tijd",
+  "driverAge": "Leeftijd Bestuurder",
+  "search": "Zoeken",
+  "moment": {
+    "months": [
+      "januari",
+      "februari",
+      "maart",
+      "april",
+      "mei",
+      "juni",
+      "juli",
+      "augustus",
+      "september",
+      "oktober",
+      "november",
+      "december"
+    ],
+    "monthsShort": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "weekdays": [
+      "zondag",
+      "maandag",
+      "dinsdag",
+      "woensdag",
+      "donderdag",
+      "vrijdag",
+      "zaterdag"
+    ],
+    "weekdaysShort": [
+      "zo.",
+      "ma.",
+      "di.",
+      "wo.",
+      "do.",
+      "vr.",
+      "za."
+    ],
+    "weekdaysMin": [
+      "Zo",
+      "Ma",
+      "Di",
+      "Wo",
+      "Do",
+      "Vr",
+      "Za"
+    ],
+    "longDateFormat": {
+      "LT": "HH:mm",
+      "LTS": "LT:ss",
+      "L": "DD-MM-YYYY",
+      "LL": "D MMMM YYYY",
+      "LLL": "D MMMM YYYY LT",
+      "LLLL": "dddd D MMMM YYYY LT"
+    }
+  },
+  "errorLocation": "In welke plaats",
+  "errorDropLocation": "Locatie van afleveren",
+  "errorDriversAge": "Leeftijd Bestuurder",
+  "errorManditory": "wilt u de auto ophalen?",
+  "errorDateLength": "Er moet tenminste één uur verschil zitten tussen ophaal- en inlevertijd"
+}

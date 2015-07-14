@@ -1,0 +1,84 @@
+{
+  "title": "ONLINE ARAÇ REZERVASYONU",
+  "country": "Ülke",
+  "city": "Şehir",
+  "location": "Yer",
+  "pickUp": "ALIŞ",
+  "dropOff": "İade Yeri",
+  "emptySelect": "Lütfen Seçiniz",
+  "pickUpDate": "Teslim alis tarihi",
+  "dropOffDate": "Teslim edis tarihi",
+  "time": "Saat",
+  "driverAge": "Sürücü Yaşı",
+  "search": "Ara",
+  "moment": {
+    "months": [
+      "Ocak",
+      "Şubat",
+      "Mart",
+      "Nisan",
+      "Mayıs",
+      "Haziran",
+      "Temmuz",
+      "Ağustos",
+      "Eylül",
+      "Ekim",
+      "Kasım",
+      "Aralık"
+    ],
+    "monthsShort": [
+      "Oca",
+      "Şub",
+      "Mar",
+      "Nis",
+      "May",
+      "Haz",
+      "Tem",
+      "Ağu",
+      "Eyl",
+      "Eki",
+      "Kas",
+      "Ara"
+    ],
+    "weekdays": [
+      "Pazar",
+      "Pazartesi",
+      "Salı",
+      "Çarşamba",
+      "Perşembe",
+      "Cuma",
+      "Cumartesi"
+    ],
+    "weekdaysShort": [
+      "Paz",
+      "Pts",
+      "Sal",
+      "Çar",
+      "Per",
+      "Cum",
+      "Cts"
+    ],
+    "weekdaysMin": [
+      "Pz",
+      "Pt",
+      "Sa",
+      "Ça",
+      "Pe",
+      "Cu",
+      "Ct"
+    ],
+    "longDateFormat": {
+      "LT": "HH:mm",
+      "LTS": "LT:ss",
+      "L": "DD.MM.YYYY",
+      "LL": "D MMMM YYYY",
+      "LLL": "D MMMM YYYY LT",
+      "LLLL": "dddd, D MMMM YYYY LT"
+    }
+  },
+  "errorLocation": "Alış Yeri",
+  "errorDropLocation": "İade Yeri",
+  "errorDriversAge": "Sürücü Yaşı",
+  "errorManditory": "belirlenmesi gerekiyor",
+  "errorDateLength": "Alış ve iade arasında en az bir saat olması gerekir."
+}

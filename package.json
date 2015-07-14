@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "extend": "^3.0.0",
     "format-json": "^1.0.3",
     "fs": "0.0.2",
     "moment": "^2.10.3"

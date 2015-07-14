@@ -1,0 +1,88 @@
+{
+  "title": "搜尋租車訊息",
+  "country": "國家",
+  "city": "城市",
+  "location": "地點",
+  "pickUp": " 取車",
+  "dropOff": "還車",
+  "emptySelect": "請選擇",
+  "pickUpDate": "取車日期",
+  "dropOffDate": "還車日期",
+  "time": "時間",
+  "driverAge": "駕駛者年齡",
+  "search": "搜尋",
+  "moment": {
+    "months": [
+      "一月",
+      "二月",
+      "三月",
+      "四月",
+      "五月",
+      "六月",
+      "七月",
+      "八月",
+      "九月",
+      "十月",
+      "十一月",
+      "十二月"
+    ],
+    "monthsShort": [
+      "1月",
+      "2月",
+      "3月",
+      "4月",
+      "5月",
+      "6月",
+      "7月",
+      "8月",
+      "9月",
+      "10月",
+      "11月",
+      "12月"
+    ],
+    "weekdays": [
+      "星期日",
+      "星期一",
+      "星期二",
+      "星期三",
+      "星期四",
+      "星期五",
+      "星期六"
+    ],
+    "weekdaysShort": [
+      "周日",
+      "周一",
+      "周二",
+      "周三",
+      "周四",
+      "周五",
+      "周六"
+    ],
+    "weekdaysMin": [
+      "日",
+      "一",
+      "二",
+      "三",
+      "四",
+      "五",
+      "六"
+    ],
+    "longDateFormat": {
+      "LT": "Ah点mm分",
+      "LTS": "Ah点m分s秒",
+      "L": "YYYY-MM-DD",
+      "LL": "YYYY年MMMD日",
+      "LLL": "YYYY年MMMD日LT",
+      "LLLL": "YYYY年MMMD日ddddLT",
+      "l": "YYYY-MM-DD",
+      "ll": "YYYY年MMMD日",
+      "lll": "YYYY年MMMD日LT",
+      "llll": "YYYY年MMMD日ddddLT"
+    }
+  },
+  "errorLocation": "取車地點",
+  "errorDropLocation": "還車地點",
+  "errorDriversAge": "駕駛年齡",
+  "errorManditory": "請填寫",
+  "errorDateLength": "取車和還車之間必須至少有1小時的時間差。"
+}

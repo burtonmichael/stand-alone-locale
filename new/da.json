@@ -1,0 +1,84 @@
+{
+  "title": "Søg efter biludlejning",
+  "country": "Land",
+  "city": "By",
+  "location": "Sted",
+  "pickUp": "Afhentning",
+  "dropOff": "Aflevering  ",
+  "emptySelect": "Foretag valg",
+  "pickUpDate": "Afhentings dato",
+  "dropOffDate": "Afleverings dato",
+  "time": "Tid",
+  "driverAge": "Chaufførens alder",
+  "search": "Søg",
+  "moment": {
+    "months": [
+      "januar",
+      "februar",
+      "marts",
+      "april",
+      "maj",
+      "juni",
+      "juli",
+      "august",
+      "september",
+      "oktober",
+      "november",
+      "december"
+    ],
+    "monthsShort": [
+      "jan",
+      "feb",
+      "mar",
+      "apr",
+      "maj",
+      "jun",
+      "jul",
+      "aug",
+      "sep",
+      "okt",
+      "nov",
+      "dec"
+    ],
+    "weekdays": [
+      "søndag",
+      "mandag",
+      "tirsdag",
+      "onsdag",
+      "torsdag",
+      "fredag",
+      "lørdag"
+    ],
+    "weekdaysShort": [
+      "søn",
+      "man",
+      "tir",
+      "ons",
+      "tor",
+      "fre",
+      "lør"
+    ],
+    "weekdaysMin": [
+      "sø",
+      "ma",
+      "ti",
+      "on",
+      "to",
+      "fr",
+      "lø"
+    ],
+    "longDateFormat": {
+      "LT": "HH:mm",
+      "LTS": "LT:ss",
+      "L": "DD/MM/YYYY",
+      "LL": "D. MMMM YYYY",
+      "LLL": "D. MMMM YYYY LT",
+      "LLLL": "dddd [d.] D. MMMM YYYY LT"
+    }
+  },
+  "errorLocation": "Afhentnings Sted",
+  "errorDropLocation": "Afleverings Sted",
+  "errorDriversAge": "Førens Alder",
+  "errorManditory": "skal være angivet",
+  "errorDateLength": "Der skal være mindst en time imellem afhentning og aflevering"
+}

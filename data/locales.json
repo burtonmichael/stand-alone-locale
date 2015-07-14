@@ -1,0 +1,124 @@
+[{
+    "preflang": "ar",
+    "locale": "ar"
+}, {
+    "preflang": "bg",
+    "locale": "bg"
+}, {
+    "preflang": "br",
+    "locale": "pt-br"
+}, {
+    "preflang": "ca",
+    "locale": "ca"
+}, {
+    "preflang": "cs",
+    "locale": "cs"
+}, {
+    "preflang": "da",
+    "locale": "da"
+}, {
+    "preflang": "de",
+    "locale": "de"
+}, {
+    "preflang": "ee",
+    "locale": "et"
+}, {
+    "preflang": "en",
+    "locale": "en-gb"
+}, {
+    "preflang": "es",
+    "locale": "es"
+}, {
+    "preflang": "fi",
+    "locale": "fi"
+}, {
+    "preflang": "fr",
+    "locale": "fr"
+}, {
+    "preflang": "gr",
+    "locale": "el"
+}, {
+    "preflang": "he",
+    "locale": "he"
+}, {
+    "preflang": "hr",
+    "locale": "hr"
+}, {
+    "preflang": "hu",
+    "locale": "hu"
+}, {
+    "preflang": "id",
+    "locale": "id"
+}, {
+    "preflang": "is",
+    "locale": "is"
+}, {
+    "preflang": "it",
+    "locale": "it"
+}, {
+    "preflang": "jp",
+    "locale": "ja"
+}, {
+    "preflang": "ko",
+    "locale": "ko"
+}, {
+    "preflang": "lt",
+    "locale": "lt"
+}, {
+    "preflang": "lv",
+    "locale": "lv"
+}, {
+    "preflang": "my",
+    "locale": "my"
+}, {
+    "preflang": "nl",
+    "locale": "nl"
+}, {
+    "preflang": "no",
+    "locale": "no"
+}, {
+    "preflang": "ph",
+    "locale": "tl-ph"
+}, {
+    "preflang": "pl",
+    "locale": "pl"
+}, {
+    "preflang": "pt",
+    "locale": "pt"
+}, {
+    "preflang": "ro",
+    "locale": "ro"
+}, {
+    "preflang": "rs",
+    "locale": "sr"
+}, {
+    "preflang": "ru",
+    "locale": "ru"
+}, {
+    "preflang": "sk",
+    "locale": "sk"
+}, {
+    "preflang": "sl",
+    "locale": "sl"
+}, {
+    "preflang": "sv",
+    "locale": "sv"
+}, {
+    "preflang": "th",
+    "locale": "th"
+}, {
+    "preflang": "tr",
+    "locale": "tr"
+}, {
+    "preflang": "uk",
+    "locale": "uk"
+}, {
+    "preflang": "vi",
+    "locale": "vi"
+}, {
+    "preflang": "zh",
+    "locale": "zh-cn"
+}, {
+    "preflang": "zs",
+    "locale": "zh-tw"
+}]

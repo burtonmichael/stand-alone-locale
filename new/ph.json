@@ -1,0 +1,84 @@
+{
+  "title": "Maghanap ng Car Hire\n",
+  "country": "Bansa",
+  "city": "Lungsod",
+  "location": "Lokasyon",
+  "pickUp": "Pick up",
+  "dropOff": "Drop Off",
+  "emptySelect": "Piliin ",
+  "pickUpDate": "Petsa ng Pick up",
+  "dropOffDate": "Petsa ng Drop off",
+  "time": "Oras",
+  "driverAge": "Edad ng Driver",
+  "search": "Search",
+  "moment": {
+    "months": [
+      "Enero",
+      "Pebrero",
+      "Marso",
+      "Abril",
+      "Mayo",
+      "Hunyo",
+      "Hulyo",
+      "Agosto",
+      "Setyembre",
+      "Oktubre",
+      "Nobyembre",
+      "Disyembre"
+    ],
+    "monthsShort": [
+      "Ene",
+      "Peb",
+      "Mar",
+      "Abr",
+      "May",
+      "Hun",
+      "Hul",
+      "Ago",
+      "Set",
+      "Okt",
+      "Nob",
+      "Dis"
+    ],
+    "weekdays": [
+      "Linggo",
+      "Lunes",
+      "Martes",
+      "Miyerkules",
+      "Huwebes",
+      "Biyernes",
+      "Sabado"
+    ],
+    "weekdaysShort": [
+      "Lin",
+      "Lun",
+      "Mar",
+      "Miy",
+      "Huw",
+      "Biy",
+      "Sab"
+    ],
+    "weekdaysMin": [
+      "Li",
+      "Lu",
+      "Ma",
+      "Mi",
+      "Hu",
+      "Bi",
+      "Sab"
+    ],
+    "longDateFormat": {
+      "LT": "HH:mm",
+      "LTS": "LT:ss",
+      "L": "MM/D/YYYY",
+      "LL": "MMMM D, YYYY",
+      "LLL": "MMMM D, YYYY LT",
+      "LLLL": "dddd, MMMM DD, YYYY LT"
+    }
+  },
+  "errorLocation": "Lokasyon ng pagsusunduan",
+  "errorDropLocation": "Lokasyon ng paghahatiran",
+  "errorDriversAge": "Edad ng Driver",
+  "errorManditory": "ito ay kailangang isulat",
+  "errorDateLength": "Dapat ay may isang oras na pagitan mula sa pagsunddo at pag hatid"
+}

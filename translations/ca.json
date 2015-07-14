@@ -1,0 +1,17 @@
+{
+  "title": "Lloguer de cotxes",
+  "country": "País",
+  "city": "Ciutat",
+  "location": "Localització",
+  "pickUp": "Recollida",
+  "dropOff": "Devolucio",
+  "emptySelect": "Selecciona per favor ",
+  "pickUpDate": "Data de Recollida",
+  "dropOffDate": "Data de Devolució",
+  "time": "Hora",
+  "driverAge": "Edat del conductor",
+  "search": "Cerca",
+  "errorPickUp": "undefined undefined",
+  "errorDropOff": "undefined undefined",
+  "errorAge": "Edat del conductor undefined"
+}

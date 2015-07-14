@@ -1,0 +1,84 @@
+{
+  "title": "Cari Kereta Sewa",
+  "country": "Negara",
+  "city": "Bandar",
+  "location": "Lokasi",
+  "pickUp": "Mengambil",
+  "dropOff": "Mengembali",
+  "emptySelect": "Sila Pilih",
+  "pickUpDate": "Tarikh Mengambil",
+  "dropOffDate": "Tarikh Mengembali",
+  "time": "Masa ",
+  "driverAge": "Umur Pemandu",
+  "search": "Cari",
+  "moment": {
+    "months": [
+      "ဇန်နဝါရီ",
+      "ဖေဖော်ဝါရီ",
+      "မတ်",
+      "ဧပြီ",
+      "မေ",
+      "ဇွန်",
+      "ဇူလိုင်",
+      "သြဂုတ်",
+      "စက်တင်ဘာ",
+      "အောက်တိုဘာ",
+      "နိုဝင်ဘာ",
+      "ဒီဇင်ဘာ"
+    ],
+    "monthsShort": [
+      "ဇန်",
+      "ဖေ",
+      "မတ်",
+      "ပြီ",
+      "မေ",
+      "ဇွန်",
+      "လိုင်",
+      "သြ",
+      "စက်",
+      "အောက်",
+      "နို",
+      "ဒီ"
+    ],
+    "weekdays": [
+      "တနင်္ဂနွေ",
+      "တနင်္လာ",
+      "အင်္ဂါ",
+      "ဗုဒ္ဓဟူး",
+      "ကြာသပတေး",
+      "သောကြာ",
+      "စနေ"
+    ],
+    "weekdaysShort": [
+      "နွေ",
+      "လာ",
+      "ဂါ",
+      "ဟူး",
+      "ကြာ",
+      "သော",
+      "နေ"
+    ],
+    "weekdaysMin": [
+      "နွေ",
+      "လာ",
+      "ဂါ",
+      "ဟူး",
+      "ကြာ",
+      "သော",
+      "နေ"
+    ],
+    "longDateFormat": {
+      "LT": "HH:mm",
+      "LTS": "HH:mm:ss",
+      "L": "DD/MM/YYYY",
+      "LL": "D MMMM YYYY",
+      "LLL": "D MMMM YYYY LT",
+      "LLLL": "dddd D MMMM YYYY LT"
+    }
+  },
+  "errorLocation": "Tempat Mengambil",
+  "errorDropLocation": "Tempat Mengembali",
+  "errorDriversAge": "Umur Pemandu",
+  "errorManditory": "mesti dinyatakan",
+  "errorDateLength": "Masa pengambilan kenderaan mestilah sekurang-kurangnya satu jam sebelum masa mengembali"
+}
