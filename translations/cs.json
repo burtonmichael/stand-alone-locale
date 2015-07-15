@@ -1,5 +1,5 @@
 {
-  "title": "Pronájem Vozu",
+  "title": "Vyhledat vůz",
   "country": "Země",
   "city": "Město",
   "location": "Místo",
@@ -10,11 +10,12 @@
   "dropOffDate": "Datum odevzdání",
   "time": "Čas",
   "driverAge": "Věk řidiče",
-  "search": "Hledej",
-  "errorPickUp": "místo vyzvednutí musí být specifikován",
-  "errorDropOff": "místo odevzdání musí být specifikován",
-  "errorDateDiff": "Mezi vyzvednutím a navrácením musí být alespoň 1 hodina rozdíl.",
-  "errorAge": "Věk řidiče musí být specifikován",
+  "search": "HLEDEJ",
+  "errorLocation": "místo vyzvednutí",
+  "errorDropLocation": "místo odevzdání",
+  "errorDriversAge": "věk řidiče",
+  "errorManditory": "musí být specifikován",
+  "errorDateLength": "Mezi vyzvednutím a navrácením musí být alespoň 1 hodina rozdíl.",
   "moment": {
     "months": [
       "leden",

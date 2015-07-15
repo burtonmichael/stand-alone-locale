@@ -1,17 +1,84 @@
 {
-  "title": "Lloguer de cotxes",
+  "title": "Cercar cotxe de lloguer",
   "country": "País",
   "city": "Ciutat",
-  "location": "Localització",
+  "location": "Lloc",
   "pickUp": "Recollida",
-  "dropOff": "Devolucio",
-  "emptySelect": "Selecciona per favor ",
-  "pickUpDate": "Data de Recollida",
-  "dropOffDate": "Data de Devolució",
+  "dropOff": "Devolució",
+  "emptySelect": "Tria",
+  "pickUpDate": "Data de la recollida",
+  "dropOffDate": "Data de la devolució",
   "time": "Hora",
   "driverAge": "Edat del conductor",
   "search": "Cerca",
-  "errorPickUp": "undefined undefined",
-  "errorDropOff": "undefined undefined",
-  "errorAge": "Edat del conductor undefined"
+  "errorLocation": "lloc de recollida",
+  "errorDropLocation": "lloc de devolució",
+  "errorDriversAge": "edat del conductor",
+  "errorManditory": "ha de ser especificat",
+  "errorDateLength": "Ha d’haver almenys una hora entre la recollida i la devolució",
+  "moment": {
+    "months": [
+      "gener",
+      "febrer",
+      "març",
+      "abril",
+      "maig",
+      "juny",
+      "juliol",
+      "agost",
+      "setembre",
+      "octubre",
+      "novembre",
+      "desembre"
+    ],
+    "monthsShort": [
+      "gen.",
+      "febr.",
+      "mar.",
+      "abr.",
+      "mai.",
+      "jun.",
+      "jul.",
+      "ag.",
+      "set.",
+      "oct.",
+      "nov.",
+      "des."
+    ],
+    "weekdays": [
+      "diumenge",
+      "dilluns",
+      "dimarts",
+      "dimecres",
+      "dijous",
+      "divendres",
+      "dissabte"
+    ],
+    "weekdaysShort": [
+      "dg.",
+      "dl.",
+      "dt.",
+      "dc.",
+      "dj.",
+      "dv.",
+      "ds."
+    ],
+    "weekdaysMin": [
+      "Dg",
+      "Dl",
+      "Dt",
+      "Dc",
+      "Dj",
+      "Dv",
+      "Ds"
+    ],
+    "longDateFormat": {
+      "LT": "H:mm",
+      "LTS": "LT:ss",
+      "L": "DD/MM/YYYY",
+      "LL": "D MMMM YYYY",
+      "LLL": "D MMMM YYYY LT",
+      "LLLL": "dddd D MMMM YYYY LT"
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "title": "Bilhyra",
+  "title": "SÖK HYRBIL",
   "country": "Land",
   "city": "Stad",
   "location": "Plats",
@@ -11,10 +11,11 @@
   "time": "Tid",
   "driverAge": "Förarens ålder",
   "search": "Sök",
-  "errorPickUp": "Upphämtningsplats måste specificeras",
-  "errorDropOff": "Returplats måste specificeras",
-  "errorDateDiff": "Det måste vara minst en timma mellan upphämtnings- och avlämningstiden",
-  "errorAge": "Förarens ålder måste specificeras",
+  "errorLocation": "Upphämtningsplats",
+  "errorDropLocation": "Returplats",
+  "errorDriversAge": "Förarens ålder",
+  "errorManditory": "måste specificeras",
+  "errorDateLength": "Det måste vara minst en timma mellan upphämtnings- och avlämningstiden",
   "moment": {
     "months": [
       "januari",

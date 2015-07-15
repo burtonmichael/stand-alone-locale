@@ -1,5 +1,5 @@
 {
-  "title": "Autonvuokraus",
+  "title": "Vuokra-autohaku",
   "country": "Maa",
   "city": "Kaupunki",
   "location": "Sijainti",
@@ -10,11 +10,12 @@
   "dropOffDate": "Palautusajankohta",
   "time": "Aika",
   "driverAge": "Kuljettajan ikä",
-  "search": "Valitse",
-  "errorPickUp": "Noutokohde on mainittava",
-  "errorDropOff": "Palautussijainti on mainittava",
-  "errorDateDiff": "Haku- ja palautusajassa tulee olla vähintään yksi tunti eroa",
-  "errorAge": "Kuljettajan ikä on mainittava",
+  "search": "VALITSE",
+  "errorLocation": "Noutokohde",
+  "errorDropLocation": "Palautussijainti",
+  "errorDriversAge": "Kuljettajien Ikä",
+  "errorManditory": "on mainittava",
+  "errorDateLength": "Haku- ja palautusajassa tulee olla vähintään yksi tunti eroa ",
   "moment": {
     "months": [
       "tammikuu",

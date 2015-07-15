@@ -6,10 +6,12 @@ var langs = [{
     "locale": "bg"
 }, {
     "preflang": "br",
-    "locale": "pt_rc_br"
+    "locale": "pt_rc_br",
+    "fallback": "pt"
 }, {
     "preflang": "ca",
-    "locale": "ca"
+    "locale": "es_ct",
+    "fallback": "es"
 }, {
     "preflang": "cs",
     "locale": "cs"
@@ -39,7 +41,7 @@ var langs = [{
     "locale": "el"
 }, {
     "preflang": "he",
-    "locale": "he"
+    "locale": "he_il"
 }, {
     "preflang": "hr",
     "locale": "hr"
@@ -48,7 +50,7 @@ var langs = [{
     "locale": "hu"
 }, {
     "preflang": "id",
-    "locale": "id"
+    "locale": "in_id"
 }, {
     "preflang": "is",
     "locale": "is"
@@ -90,7 +92,8 @@ var langs = [{
     "locale": "ro"
 }, {
     "preflang": "rs",
-    "locale": "rs"
+    "locale": "rs",
+    "fallback": "hr"
 }, {
     "preflang": "ru",
     "locale": "ru"
@@ -180,6 +183,13 @@ var completeLangs = 0;
 
 var out = {};
 
+function escapeHtml(message) {
+    if (message.indexOf(';')) {
+        return $('<div/>').html(message).text();
+    }
+    return message;
+}
+
 $.each(langs, function(index, lang) {
 
     var messages = {
@@ -216,24 +226,61 @@ $.each(langs, function(index, lang) {
                 }
             })
             .done(function(data) {
-                $.each(data, function(index, result) {
-                    if (result.locale === lang.locale) {
-                        if (result.message.indexOf(';')) {
-                            result.message = $('<div/>').html(result.message).text();
+                if (data.length > 0) {
+                    $.each(data, function(index, result) {
+                        if (result.locale === lang.locale) {
+
+                            messages[search.key] = escapeHtml(result.message);
+
+                            completeMessages++
+
+    					    if (completeMessages === 17) {
+    					    	out[lang.preflang] = messages;
+    					        console.log(lang.preflang + ' done!');
+                            	completeLangs++;
+    					    }
+
+                            return false;
                         }
-                        messages[search.key] = result.message;
+                    });
+                } else if (data.length === 0 && lang.fallback) {
+                    console.log('Backup requested for ' + search.message + ' for ' + lang.locale)
+                    $.ajax({
+                            url: 'webcontent/getSortedMessages',
+                            data: {
+                                countries: 'all',
+                                locales: lang.fallback,
+                                messagekeys: search.message,
+                                searchKey: '',
+                                searchTxt: ''
+                            }
+                        }).done(function(data) {
+                            if (data.length > 0) {
+                                $.each(data, function(index, result) {
+                                    if (result.locale === lang.fallback) {
 
-                        completeMessages++
+                                        messages[search.key] = escapeHtml(result.message);
 
-					    if (completeMessages === 17) {
-					    	out[lang.preflang] = messages;
-					        console.log(lang.preflang + ' done!');
-                        	completeLangs++;
-					    }
-                    } else {
-                    	console.log(lang.preflang + ' ' + messages[search.key]);
-                    }
-                });
-            })
+                                        completeMessages++
+
+                                        if (completeMessages === 17) {
+                                            out[lang.preflang] = messages;
+                                            console.log(lang.preflang + ' done!');
+                                            completeLangs++;
+                                        }
+
+                                        return false;
+                                    } else {
+                                        console.log('Unable to match backup ' + search.message + ' for ' + lang.locale);
+                                    }
+                                });
+                            } else {
+                                console.log('Unable to get backup ' + search.message + ' for ' + lang.locale);
+                            }
+                        });
+                } else {
+                    console.log('Unable to get ' + search.message + ' for ' + lang.locale);
+                }
+            });
     })
 })

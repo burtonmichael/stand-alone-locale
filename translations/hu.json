@@ -1,5 +1,5 @@
 {
-  "title": "Autó Bérlés",
+  "title": "Bérautó keresés",
   "country": "Ország",
   "city": "Város",
   "location": "Helyszín",
@@ -11,10 +11,11 @@
   "time": "Időpont",
   "driverAge": "Vezető kora",
   "search": "Keresés",
-  "errorPickUp": "Autófelvétel helye kötelezően kitöltendő",
-  "errorDropOff": "Autóleadás helye kötelezően kitöltendő",
-  "errorDateDiff": "Legalább 1 órás különbség kell hogy legyen a felvétel és a leadás között",
-  "errorAge": "Vezető kora kötelezően kitöltendő",
+  "errorLocation": "Autófelvétel helye",
+  "errorDropLocation": "Autóleadás helye",
+  "errorDriversAge": "Vezető kora",
+  "errorManditory": "kötelezően kitöltendő",
+  "errorDateLength": "Legalább 1 órás különbség kell hogy legyen a felvétel és a leadás között",
   "moment": {
     "months": [
       "január",

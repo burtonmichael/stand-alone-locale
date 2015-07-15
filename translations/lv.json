@@ -1,5 +1,5 @@
 {
-  "title": "Auto Noma",
+  "title": "Meklēt auto nomu",
   "country": "Valsts",
   "city": "Pilsēta",
   "location": "Vieta",
@@ -11,10 +11,11 @@
   "time": "Laiks",
   "driverAge": "Vadītāja vecums",
   "search": "Meklēt",
-  "errorPickUp": "Saņemšanas Vieta jānorāda",
-  "errorDropOff": "Atgriešanas Vieta jānorāda",
-  "errorDateDiff": "Ir jābūt vismaz 1 stundas starpībai starp saņemšanu un atgriešanu",
-  "errorAge": "Vadītāja vecums jānorāda",
+  "errorLocation": "Saņemšanas Vieta",
+  "errorDropLocation": "Atgriešanas Vieta",
+  "errorDriversAge": "Vadītāja vecums",
+  "errorManditory": "jānorāda",
+  "errorDateLength": "Ir jābūt vismaz 1 stundas starpībai starp saņemšanu un atgriešanu",
   "moment": {
     "months": [
       "janvāris",
