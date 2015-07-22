@@ -14,6 +14,10 @@ for (var i in locales) {
 
     var translations = download[locale.preflang];
 
+	var countries = require ('./data/countries/' + locale.preflang);
+
+	translations.countries = countries;
+
     moment.locale(locale.locale);
 
     var localeData = moment.localeData();
@@ -27,7 +31,7 @@ for (var i in locales) {
 	translations.moment.longDateFormat = localeData._longDateFormat
 
 
-	fs.writeFile("./translations/" + locale.preflang + ".json", formatJson.plain(translations), function(err) {
+	fs.writeFile("./translations/" + locale.preflang + ".json", formatJson.terse(translations), function(err) {
 	    if(err) {
 	        return console.log(err);
 	    }
